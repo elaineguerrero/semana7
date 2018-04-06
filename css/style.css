@@ -1,0 +1,28 @@
+
+body{
+  background-color: grey;
+  }
+  <style>
+body{
+  background-color: black;
+}
+ @-webkit-keyframes color {
+    0% {
+    margin-left:98px;
+    background-color:pink;
+    border-radius:126px;
+    -webkit-transform:rotate(500deg);
+    }
+  }
+  .cuadrado{
+  position:absolute;
+  background-color:black;
+  top: 200px;
+  left: 130px;
+  width: 200px;
+  height: 100px;
+  border:8px solid yellow;
+  -webkit-animation:color 4s infinite;
+  -webkit-animation-direction:alternate;
+}
+</style>
